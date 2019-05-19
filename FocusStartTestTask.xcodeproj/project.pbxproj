@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCA0236228AF983006EC1B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA0235228AF983006EC1B6 /* AppDelegate.swift */; };
+		0CCA023B228AF983006EC1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA0239228AF983006EC1B6 /* Main.storyboard */; };
+		0CCA023D228AF984006EC1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA023C228AF984006EC1B6 /* Assets.xcassets */; };
+		0CCA0240228AF984006EC1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA023E228AF984006EC1B6 /* LaunchScreen.storyboard */; };
+		0CCA024D228AFAA3006EC1B6 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA024C228AFAA3006EC1B6 /* CarModel.swift */; };
+		0CCA0253228B092F006EC1B6 /* CarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA0252228B092F006EC1B6 /* CarsTableViewCell.swift */; };
+		0CCA0255228B1279006EC1B6 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA0254228B1279006EC1B6 /* CarsViewController.swift */; };
+		0CCA0259228D345D006EC1B6 /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA0258228D345D006EC1B6 /* default.realm */; };
+		A535187181E77F3607D6667E /* Pods_FocusStartTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7542365C7B785F826490A6A6 /* Pods_FocusStartTestTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C922EDB229E9071009720CF /* FocusStartTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusStartTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCA0235228AF983006EC1B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CCA023A228AF983006EC1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CCA023C228AF984006EC1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CCA023F228AF984006EC1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CCA0241228AF984006EC1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCA024C228AFAA3006EC1B6 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		0CCA0252228B092F006EC1B6 /* CarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewCell.swift; sourceTree = "<group>"; };
+		0CCA0254228B1279006EC1B6 /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		0CCA0258228D345D006EC1B6 /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; name = default.realm; path = ../../../../../../../../Documents/Xcode/FocusStartTestTask/FocusStartTestTask/default.realm; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6AC609512E8C69E325BE05 /* Pods-FocusStartTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusStartTestTask.debug.xcconfig"; path = "Target Support Files/Pods-FocusStartTestTask/Pods-FocusStartTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		494DE44EEE6B61D76CC6D595 /* Pods-FocusStartTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusStartTestTask.release.xcconfig"; path = "Target Support Files/Pods-FocusStartTestTask/Pods-FocusStartTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		7542365C7B785F826490A6A6 /* Pods_FocusStartTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusStartTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CCA022F228AF983006EC1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A535187181E77F3607D6667E /* Pods_FocusStartTestTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCA0229228AF982006EC1B6 = {
+			isa = PBXGroup;
+			children = (
+				0CCA0234228AF983006EC1B6 /* FocusStartTestTask */,
+				0C922EDB229E9071009720CF /* FocusStartTestTask.app */,
+				967DBF0563CE6B628A480B95 /* Pods */,
+				1AB7992426509CD4AC5B7A2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CCA0234228AF983006EC1B6 /* FocusStartTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				0CCA024A228AFA50006EC1B6 /* Model */,
+				0CCA0249228AFA47006EC1B6 /* View */,
+				0CCA024B228AFA7E006EC1B6 /* Controller */,
+				0CCA0235228AF983006EC1B6 /* AppDelegate.swift */,
+				0CCA0239228AF983006EC1B6 /* Main.storyboard */,
+				0CCA023C228AF984006EC1B6 /* Assets.xcassets */,
+				0CCA023E228AF984006EC1B6 /* LaunchScreen.storyboard */,
+				0CCA0241228AF984006EC1B6 /* Info.plist */,
+				0CCA0258228D345D006EC1B6 /* default.realm */,
+			);
+			path = FocusStartTestTask;
+			sourceTree = "<group>";
+		};
+		0CCA0249228AFA47006EC1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CCA0252228B092F006EC1B6 /* CarsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CCA024A228AFA50006EC1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CCA024C228AFAA3006EC1B6 /* CarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CCA024B228AFA7E006EC1B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CCA0254228B1279006EC1B6 /* CarsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AB7992426509CD4AC5B7A2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7542365C7B785F826490A6A6 /* Pods_FocusStartTestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		967DBF0563CE6B628A480B95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C6AC609512E8C69E325BE05 /* Pods-FocusStartTestTask.debug.xcconfig */,
+				494DE44EEE6B61D76CC6D595 /* Pods-FocusStartTestTask.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CCA0231228AF983006EC1B6 /* FocusStartTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CCA0244228AF984006EC1B6 /* Build configuration list for PBXNativeTarget "FocusStartTestTask" */;
+			buildPhases = (
+				0C068E0A9140415E8C6F5A3D /* [CP] Check Pods Manifest.lock */,
+				0CCA022E228AF983006EC1B6 /* Sources */,
+				0CCA022F228AF983006EC1B6 /* Frameworks */,
+				0CCA0230228AF983006EC1B6 /* Resources */,
+				97C0F7EA83931C2D9C863E60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusStartTestTask;
+			productName = FocusStartTestTask;
+			productReference = 0C922EDB229E9071009720CF /* FocusStartTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CCA022A228AF983006EC1B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Oleg Krylov";
+				TargetAttributes = {
+					0CCA0231228AF983006EC1B6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CCA022D228AF983006EC1B6 /* Build configuration list for PBXProject "FocusStartTestTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CCA0229228AF982006EC1B6;
+			productRefGroup = 0CCA0229228AF982006EC1B6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CCA0231228AF983006EC1B6 /* FocusStartTestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CCA0230228AF983006EC1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCA0240228AF984006EC1B6 /* LaunchScreen.storyboard in Resources */,
+				0CCA0259228D345D006EC1B6 /* default.realm in Resources */,
+				0CCA023D228AF984006EC1B6 /* Assets.xcassets in Resources */,
+				0CCA023B228AF983006EC1B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C068E0A9140415E8C6F5A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FocusStartTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C0F7EA83931C2D9C863E60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocusStartTestTask/Pods-FocusStartTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocusStartTestTask/Pods-FocusStartTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FocusStartTestTask/Pods-FocusStartTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CCA022E228AF983006EC1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCA0236228AF983006EC1B6 /* AppDelegate.swift in Sources */,
+				0CCA0255228B1279006EC1B6 /* CarsViewController.swift in Sources */,
+				0CCA024D228AFAA3006EC1B6 /* CarModel.swift in Sources */,
+				0CCA0253228B092F006EC1B6 /* CarsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CCA0239228AF983006EC1B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CCA023A228AF983006EC1B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CCA023E228AF984006EC1B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CCA023F228AF984006EC1B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CCA0242228AF984006EC1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CCA0243228AF984006EC1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CCA0245228AF984006EC1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6AC609512E8C69E325BE05 /* Pods-FocusStartTestTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36XZ9KLHXP;
+				INFOPLIST_FILE = FocusStartTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OlegKrylov.FocusStartTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CCA0246228AF984006EC1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494DE44EEE6B61D76CC6D595 /* Pods-FocusStartTestTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36XZ9KLHXP;
+				INFOPLIST_FILE = FocusStartTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OlegKrylov.FocusStartTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CCA022D228AF983006EC1B6 /* Build configuration list for PBXProject "FocusStartTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CCA0242228AF984006EC1B6 /* Debug */,
+				0CCA0243228AF984006EC1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CCA0244228AF984006EC1B6 /* Build configuration list for PBXNativeTarget "FocusStartTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CCA0245228AF984006EC1B6 /* Debug */,
+				0CCA0246228AF984006EC1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CCA022A228AF983006EC1B6 /* Project object */;
+}
